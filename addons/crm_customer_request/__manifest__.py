@@ -9,9 +9,12 @@
     'depends': [
         'product',
         'crm',
+        'sale',
     ],
     'data': [
         "security/ir.model.access.csv",
+        # "views/crm_customer_request_templates.xml",
+        "views/crm_lead_views.xml",
         "views/crm_customer_request_views.xml",
         "views/customer_request_menus.xml",
     ],

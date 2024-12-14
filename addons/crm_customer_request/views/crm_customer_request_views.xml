@@ -4,7 +4,11 @@
         <field name="name">crm.customer.request.tree</field>
         <field name="model">crm.customer.request</field>
         <field name="arch" type="xml">
-            <tree string="Customer Request">
+            <tree string="Customer Request"
+            create="false"
+            edit="false"
+            delete="false"
+            >
                 <field name="product_id"/>
                 <field name="opportunity_id"/>
                 <field name="date"/>
@@ -18,7 +22,11 @@
         <field name="name">crm.customer.request.form</field>
         <field name="model">crm.customer.request</field>
         <field name="arch" type="xml">
-            <form string="Customer Request">
+            <form string="Customer Request"
+            create="false"
+            edit="false"
+            delete="false"
+            >
                 <sheet>
                     <group>
                         <group>
